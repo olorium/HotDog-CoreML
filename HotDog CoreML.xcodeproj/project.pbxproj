@@ -13,6 +13,8 @@
 		8B35DE4026EA74DC00B8A8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B35DE3E26EA74DC00B8A8A3 /* Main.storyboard */; };
 		8B35DE4226EA74DE00B8A8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B35DE4126EA74DE00B8A8A3 /* Assets.xcassets */; };
 		8B35DE4526EA74DE00B8A8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B35DE4326EA74DE00B8A8A3 /* LaunchScreen.storyboard */; };
+		8B35DE4D26EA751D00B8A8A3 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B35DE4C26EA751D00B8A8A3 /* readme.md */; };
+		8B35DE4F26EA75D900B8A8A3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B35DE4E26EA75D900B8A8A3 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8B35DE4126EA74DE00B8A8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B35DE4426EA74DE00B8A8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B35DE4626EA74DE00B8A8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B35DE4C26EA751D00B8A8A3 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		8B35DE4E26EA75D900B8A8A3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		8B35DE3726EA74DC00B8A8A3 /* HotDog CoreML */ = {
 			isa = PBXGroup;
 			children = (
+				8B35DE4C26EA751D00B8A8A3 /* readme.md */,
 				8B35DE3826EA74DC00B8A8A3 /* AppDelegate.swift */,
 				8B35DE3A26EA74DC00B8A8A3 /* SceneDelegate.swift */,
 				8B35DE3C26EA74DC00B8A8A3 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				8B35DE4126EA74DE00B8A8A3 /* Assets.xcassets */,
 				8B35DE4326EA74DE00B8A8A3 /* LaunchScreen.storyboard */,
 				8B35DE4626EA74DE00B8A8A3 /* Info.plist */,
+				8B35DE4E26EA75D900B8A8A3 /* Inceptionv3.mlmodel */,
 			);
 			path = "HotDog CoreML";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				8B35DE4526EA74DE00B8A8A3 /* LaunchScreen.storyboard in Resources */,
 				8B35DE4226EA74DE00B8A8A3 /* Assets.xcassets in Resources */,
+				8B35DE4D26EA751D00B8A8A3 /* readme.md in Resources */,
 				8B35DE4026EA74DC00B8A8A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B35DE3D26EA74DC00B8A8A3 /* ViewController.swift in Sources */,
+				8B35DE4F26EA75D900B8A8A3 /* Inceptionv3.mlmodel in Sources */,
 				8B35DE3926EA74DC00B8A8A3 /* AppDelegate.swift in Sources */,
 				8B35DE3B26EA74DC00B8A8A3 /* SceneDelegate.swift in Sources */,
 			);
